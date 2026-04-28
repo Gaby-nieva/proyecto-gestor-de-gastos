@@ -1,0 +1,27 @@
+{
+  "name": "gestor-de-gastos",
+  "version": "1.0.0",
+  "description": "Gestor de Gastos",
+  "keywords": [
+    "web",
+    "design",
+    "SASS",
+    "Gulp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "gabynieva7@gmail.com"
+  },
+  "license": "ISC",
+  "author": "Gabriel Nieva",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "gulp": "^5.0.1",
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.99.0"
+  }
+}
