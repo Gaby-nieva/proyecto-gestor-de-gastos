@@ -7,21 +7,23 @@
     <link rel="stylesheet" href="build/css/app.css">    
 </head>
 <body>
-    <h1>Gestor de Gastos</h1>
+    <div class="contenedor">
+        <h1>Gestor de Gastos</h1>
 
-    <form class="formulario">
-        <input type="text" class="nombre" placeholder="Nombre del Gasto" required>
-        <input type="number" class="monto" placeholder="Monto" required>
-        <button type="submit">Agregar</button>
-    </form>
-
+        <form class="formulario">
+            <input type="text" class="nombre" placeholder="Nombre del Gasto" required>
+            <input type="number" class="monto" placeholder="Monto" required>
+            <button type="submit">Agregar</button>
+            <button class="limpiar">Eliminar todos</button>
+        </form>
 
         <h2>Lista de Gastos</h2>
         <ul class="lista-gastos"></ul>
 
         <h3>Total: $ <span class="total">0</span> </h3>
+    </div>
     
-        <script src="js/app.js"></script>
+<script src="js/app.js"></script>
 
 </body>
 </html>
